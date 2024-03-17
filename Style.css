@@ -1,4 +1,9 @@
-/* Base styles */
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}/* Base styles */
 
 /* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
@@ -12,12 +17,7 @@
 @media only screen and (min-width: 901px) {
   /* Styles for screens wider than 900px */
 }
-*{
-    padding: 0;
-    margin: 0;
-    font-family:  sans-serif;
-    box-sizing: border-box;
-}
+
 
 .hero{
     height: 100vh;
